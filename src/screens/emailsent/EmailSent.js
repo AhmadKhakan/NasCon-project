@@ -9,7 +9,7 @@ import {
 import GlobalStyles from "../../helpers/GlobalStyles";
 import emailImage from "../../images/email.png";
 
-const EmailSent = () => {
+const EmailSent = ({navigation}) => {
   return (
     <SafeAreaView style={GlobalStyles.Bodycontainer}>
       <View style={[GlobalStyles.Bodycontainer, GlobalStyles.Center]}>
@@ -41,7 +41,7 @@ const EmailSent = () => {
 
           <TouchableOpacity
             style={[GlobalStyles.ButtonLayout]}
-            onPress={() => navigation.navigate("login")}
+            onPress={() => navigation.navigate("notification")}
           >
             <Text style={{ fontSize: 18, fontWeight: "700", color: "#fff" }}>
               Back To Login
