@@ -7,6 +7,7 @@ import GlobalStyles from "./src/helpers/GlobalStyles";
 import mainLogo from "./src/images/logo.png";
 import Theme from "./src/helpers/Theme";
 import StackNavigation from "./src/navigation/StackNavigation";
+import TabNavigation from "./src/navigation/TabNavigation";
 // import NavigationCon
 export default function App() {
   const [isLoading, setIsLoading] = useState(false);
@@ -42,6 +43,7 @@ export default function App() {
         <StatusBar />
         <NavigationContainer>
           <StackNavigation />
+          {/* <TabNavigation /> */}
         </NavigationContainer>
       </>
     );

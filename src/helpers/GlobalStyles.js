@@ -18,5 +18,11 @@ const GlobalStyles = StyleSheet.create({
     paddingVertical: "4%",
     marginVertical: "2%",
   },
+  IconLayout: {
+    padding: "6%",
+    borderRadius: 6,
+    backgroundColor: Theme.Baige,
+    alignSelf: "center",
+  },
 });
 export default GlobalStyles;
